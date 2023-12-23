@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>temperature:  <span className={tempClass}>{weather.temperature}</span></p>
+        <p>Temperature:  <span className={tempClass}>{weather.temperature}</span></p>
         <p>Conditions: {weather.conditions}</p>
     </div>
   )
